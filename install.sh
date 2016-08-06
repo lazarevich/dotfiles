@@ -828,8 +828,8 @@ defaults write com.googlecode.iterm2 FocusFollowsMouse -int 1;
 running "Make iTerm2 load new tabs in the same directory"
 /usr/libexec/PlistBuddy -c "set \"New Bookmarks\":0:\"Custom Directory\" Recycle" ~/Library/Preferences/com.googlecode.iterm2.plist
 running "setting fonts"
-defaults write com.googlecode.iterm2 "Normal Font" -string "Hack-Regular 12";
-defaults write com.googlecode.iterm2 "Non Ascii Font" -string "RobotoMonoForPowerline-Regular 12";
+/usr/libexec/PlistBuddy -c "Set 'New Bookmarks':0:'Normal Font' Hack-Regular 12" ~/Library/Preferences/com.googlecode.iTerm2.plist
+/usr/libexec/PlistBuddy -c "Set 'New Bookmarks':0:'Non Ascii Font' RobotoMonoForPowerline-Regular 12" ~/Library/Preferences/com.googlecode.iTerm2.plist
 ok
 running "reading iterm settings"
 defaults read -app iTerm > /dev/null 2>&1;
