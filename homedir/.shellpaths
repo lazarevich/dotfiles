@@ -16,4 +16,4 @@ export PATH=$PATH:/usr/local/opt/go/libexec/bin
 #source "/Users/$(whoami)/Downloads/google-cloud-sdk/completion.zsh.inc"
 
 # Virtualenv
-export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/2.7/bin/
+export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/2.7/bin
