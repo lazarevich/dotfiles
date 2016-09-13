@@ -14,3 +14,6 @@ export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
 # The next line enables shell command completion for gcloud.
 #source "/Users/$(whoami)/Downloads/google-cloud-sdk/completion.zsh.inc"
+
+# Virtualenv
+export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/2.7/bin/
